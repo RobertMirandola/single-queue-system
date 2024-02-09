@@ -4,4 +4,6 @@ This simple simulation implements a single server queueing system. With certain 
 
 To run simulation, simply run:
 
-`python3 single-server-queue.py`
+```
+python3 single-server-queue.py
+```
