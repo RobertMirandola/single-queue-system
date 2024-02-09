@@ -65,9 +65,9 @@ for i in range(len(arrival_rates)):
 plt.title('Expected Queueing Delay vs Arrival Rate (λ)')
 plt.xlabel('Arrival Rate (λ)')
 plt.ylabel('Expected Queueing Delay')
-plt.plot(arrival_rates, average_queue_delay)
+# plt.plot(arrival_rates, average_queue_delay)
 plt.plot(arrival_rates, expected_queue_delay)
-plt.legend(['actual', 'theoretical'])
+# plt.legend(['actual', 'theoretical'])
 plt.show()
 
 
